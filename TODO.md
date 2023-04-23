@@ -9,7 +9,7 @@ For the future
 
 - ! append in unbuffered mode
 - ! in the queue, when exiting to the parent directory, the cursor moves to the beginning
-  (HEADLIGHT cant, xs how to fix it)
+  (`FAR` can't, see `xs` how to fix)
 
 But what about the promised copying by mask? (for example, from all subdirectories you want to
 copy only `*.jpg`)
