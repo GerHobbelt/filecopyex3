@@ -45,7 +45,7 @@ static const size_t AllocAlign = 64 * 1024;
 static const size_t ReadBlock = 1024 * 1024;
 static const size_t WriteBlock = 1024 * 1024;
 
-static PluginPanelItem * GetPanelItem(HANDLE hPlugin, FILE_CONTROL_COMMANDS Command, intptr_t Param1)
+PluginPanelItem * GetPanelItem(HANDLE hPlugin, FILE_CONTROL_COMMANDS Command, intptr_t Param1)
 {
   size_t Size = Info.PanelControl(hPlugin, Command, Param1, 0);
   PluginPanelItem * item = reinterpret_cast<PluginPanelItem *>(new char[Size]);
